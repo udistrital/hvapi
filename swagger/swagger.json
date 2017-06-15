@@ -7040,152 +7040,152 @@
     },
     "tags": [
         {
-            "name": "contacto",
-            "description": "ContactoController oprations for Contacto\n"
-        },
-        {
-            "name": "evaluador",
-            "description": "EvaluadorController oprations for Evaluador\n"
-        },
-        {
-            "name": "estado_administrativo",
-            "description": "EstadoAdministrativoController oprations for EstadoAdministrativo\n"
+            "name": "modalidad_x_institucion",
+            "description": "ModalidadXInstitucionController oprations for ModalidadXInstitucion\n"
         },
         {
             "name": "escalafon_equivalente",
             "description": "EscalafonEquivalenteController oprations for EscalafonEquivalente\n"
         },
         {
-            "name": "escalafon",
-            "description": "EscalafonController oprations for Escalafon\n"
-        },
-        {
-            "name": "proceso_disciplinario",
-            "description": "ProcesoDisciplinarioController oprations for ProcesoDisciplinario\n"
-        },
-        {
-            "name": "modalidad_x_institucion",
-            "description": "ModalidadXInstitucionController oprations for ModalidadXInstitucion\n"
-        },
-        {
-            "name": "nivel_escalafon",
-            "description": "NivelEscalafonController oprations for NivelEscalafon\n"
-        },
-        {
-            "name": "subtipo_produccion",
-            "description": "SubtipoProduccionController oprations for SubtipoProduccion\n"
-        },
-        {
-            "name": "modalidad_grado",
-            "description": "ModalidadGradoController oprations for ModalidadGrado\n"
-        },
-        {
-            "name": "institucion",
-            "description": "InstitucionController oprations for Institucion\n"
-        },
-        {
-            "name": "produccion_academica",
-            "description": "ProduccionAcademicaController oprations for ProduccionAcademica\n"
-        },
-        {
-            "name": "nivel_idioma",
-            "description": "NivelIdiomaController oprations for NivelIdioma\n"
-        },
-        {
-            "name": "historico_escalafon",
-            "description": "HistoricoEscalafonController oprations for HistoricoEscalafon\n"
-        },
-        {
-            "name": "idioma",
-            "description": "IdiomaController oprations for Idioma\n"
-        },
-        {
-            "name": "tipo_estado_administrativo",
-            "description": "TipoEstadoAdministrativoController oprations for TipoEstadoAdministrativo\n"
-        },
-        {
-            "name": "tipo_investigacion",
-            "description": "TipoInvestigacionController oprations for TipoInvestigacion\n"
-        },
-        {
-            "name": "tipo_produccion",
-            "description": "TipoProduccionController oprations for TipoProduccion\n"
-        },
-        {
-            "name": "nivel_formacion",
-            "description": "NivelFormacionController oprations for NivelFormacion\n"
-        },
-        {
-            "name": "titulo",
-            "description": "TituloController oprations for Titulo\n"
-        },
-        {
-            "name": "tipo_vinculacion",
-            "description": "TipoVinculacionController oprations for TipoVinculacion\n"
-        },
-        {
-            "name": "persona_idioma",
-            "description": "PersonaIdiomaController oprations for PersonaIdioma\n"
-        },
-        {
-            "name": "vinculacion",
-            "description": "VinculacionController oprations for Vinculacion\n"
-        },
-        {
-            "name": "dato",
-            "description": "DatoController oprations for Dato\n"
-        },
-        {
-            "name": "opcion_dato",
-            "description": "OpcionDatoController oprations for OpcionDato\n"
-        },
-        {
-            "name": "criterio_evaluacion",
-            "description": "CriterioEvaluacionController oprations for CriterioEvaluacion\n"
-        },
-        {
-            "name": "programa",
-            "description": "ProgramaController oprations for Programa\n"
-        },
-        {
-            "name": "dato_produccion",
-            "description": "DatoProduccionController oprations for DatoProduccion\n"
-        },
-        {
-            "name": "cursos",
-            "description": "CursosController oprations for Cursos\n"
-        },
-        {
-            "name": "dato_subtipo",
-            "description": "DatoSubtipoController oprations for DatoSubtipo\n"
-        },
-        {
             "name": "distincion",
             "description": "DistincionController oprations for Distincion\n"
-        },
-        {
-            "name": "tipo_contacto",
-            "description": "TipoContactoController oprations for TipoContacto\n"
-        },
-        {
-            "name": "experiencia_laboral",
-            "description": "ExperienciaLaboralController oprations for ExperienciaLaboral\n"
-        },
-        {
-            "name": "tipo_dedicacion",
-            "description": "TipoDedicacionController oprations for TipoDedicacion\n"
         },
         {
             "name": "experiencia_docente",
             "description": "ExperienciaDocenteController oprations for ExperienciaDocente\n"
         },
         {
+            "name": "estado_administrativo",
+            "description": "EstadoAdministrativoController oprations for EstadoAdministrativo\n"
+        },
+        {
+            "name": "tipo_vinculacion",
+            "description": "TipoVinculacionController oprations for TipoVinculacion\n"
+        },
+        {
+            "name": "produccion_academica",
+            "description": "ProduccionAcademicaController oprations for ProduccionAcademica\n"
+        },
+        {
+            "name": "cursos",
+            "description": "CursosController oprations for Cursos\n"
+        },
+        {
+            "name": "tipo_produccion",
+            "description": "TipoProduccionController oprations for TipoProduccion\n"
+        },
+        {
             "name": "investigacion",
             "description": "InvestigacionController oprations for Investigacion\n"
         },
         {
+            "name": "dato_produccion",
+            "description": "DatoProduccionController oprations for DatoProduccion\n"
+        },
+        {
+            "name": "evaluador",
+            "description": "EvaluadorController oprations for Evaluador\n"
+        },
+        {
+            "name": "nivel_escalafon",
+            "description": "NivelEscalafonController oprations for NivelEscalafon\n"
+        },
+        {
+            "name": "tipo_investigacion",
+            "description": "TipoInvestigacionController oprations for TipoInvestigacion\n"
+        },
+        {
+            "name": "modalidad_grado",
+            "description": "ModalidadGradoController oprations for ModalidadGrado\n"
+        },
+        {
+            "name": "nivel_formacion",
+            "description": "NivelFormacionController oprations for NivelFormacion\n"
+        },
+        {
+            "name": "tipo_contacto",
+            "description": "TipoContactoController oprations for TipoContacto\n"
+        },
+        {
+            "name": "tipo_estado_administrativo",
+            "description": "TipoEstadoAdministrativoController oprations for TipoEstadoAdministrativo\n"
+        },
+        {
+            "name": "vinculacion",
+            "description": "VinculacionController oprations for Vinculacion\n"
+        },
+        {
+            "name": "persona_idioma",
+            "description": "PersonaIdiomaController oprations for PersonaIdioma\n"
+        },
+        {
+            "name": "programa",
+            "description": "ProgramaController oprations for Programa\n"
+        },
+        {
+            "name": "tipo_dedicacion",
+            "description": "TipoDedicacionController oprations for TipoDedicacion\n"
+        },
+        {
+            "name": "proceso_disciplinario",
+            "description": "ProcesoDisciplinarioController oprations for ProcesoDisciplinario\n"
+        },
+        {
+            "name": "contacto",
+            "description": "ContactoController oprations for Contacto\n"
+        },
+        {
+            "name": "escalafon",
+            "description": "EscalafonController oprations for Escalafon\n"
+        },
+        {
+            "name": "criterio_evaluacion",
+            "description": "CriterioEvaluacionController oprations for CriterioEvaluacion\n"
+        },
+        {
+            "name": "subtipo_produccion",
+            "description": "SubtipoProduccionController oprations for SubtipoProduccion\n"
+        },
+        {
+            "name": "historico_escalafon",
+            "description": "HistoricoEscalafonController oprations for HistoricoEscalafon\n"
+        },
+        {
             "name": "formacion_academica",
             "description": "FormacionAcademicaController oprations for FormacionAcademica\n"
+        },
+        {
+            "name": "dato_subtipo",
+            "description": "DatoSubtipoController oprations for DatoSubtipo\n"
+        },
+        {
+            "name": "experiencia_laboral",
+            "description": "ExperienciaLaboralController oprations for ExperienciaLaboral\n"
+        },
+        {
+            "name": "idioma",
+            "description": "IdiomaController oprations for Idioma\n"
+        },
+        {
+            "name": "dato",
+            "description": "DatoController oprations for Dato\n"
+        },
+        {
+            "name": "institucion",
+            "description": "InstitucionController oprations for Institucion\n"
+        },
+        {
+            "name": "opcion_dato",
+            "description": "OpcionDatoController oprations for OpcionDato\n"
+        },
+        {
+            "name": "titulo",
+            "description": "TituloController oprations for Titulo\n"
+        },
+        {
+            "name": "nivel_idioma",
+            "description": "NivelIdiomaController oprations for NivelIdioma\n"
         }
     ]
 }

@@ -4675,114 +4675,114 @@ definitions:
   int16:
     type: object
 tags:
-- name: contacto
-  description: |
-    ContactoController oprations for Contacto
-- name: evaluador
-  description: |
-    EvaluadorController oprations for Evaluador
-- name: estado_administrativo
-  description: |
-    EstadoAdministrativoController oprations for EstadoAdministrativo
-- name: escalafon_equivalente
-  description: |
-    EscalafonEquivalenteController oprations for EscalafonEquivalente
-- name: escalafon
-  description: |
-    EscalafonController oprations for Escalafon
-- name: proceso_disciplinario
-  description: |
-    ProcesoDisciplinarioController oprations for ProcesoDisciplinario
 - name: modalidad_x_institucion
   description: |
     ModalidadXInstitucionController oprations for ModalidadXInstitucion
-- name: nivel_escalafon
+- name: escalafon_equivalente
   description: |
-    NivelEscalafonController oprations for NivelEscalafon
-- name: subtipo_produccion
-  description: |
-    SubtipoProduccionController oprations for SubtipoProduccion
-- name: modalidad_grado
-  description: |
-    ModalidadGradoController oprations for ModalidadGrado
-- name: institucion
-  description: |
-    InstitucionController oprations for Institucion
-- name: produccion_academica
-  description: |
-    ProduccionAcademicaController oprations for ProduccionAcademica
-- name: nivel_idioma
-  description: |
-    NivelIdiomaController oprations for NivelIdioma
-- name: historico_escalafon
-  description: |
-    HistoricoEscalafonController oprations for HistoricoEscalafon
-- name: idioma
-  description: |
-    IdiomaController oprations for Idioma
-- name: tipo_estado_administrativo
-  description: |
-    TipoEstadoAdministrativoController oprations for TipoEstadoAdministrativo
-- name: tipo_investigacion
-  description: |
-    TipoInvestigacionController oprations for TipoInvestigacion
-- name: tipo_produccion
-  description: |
-    TipoProduccionController oprations for TipoProduccion
-- name: nivel_formacion
-  description: |
-    NivelFormacionController oprations for NivelFormacion
-- name: titulo
-  description: |
-    TituloController oprations for Titulo
-- name: tipo_vinculacion
-  description: |
-    TipoVinculacionController oprations for TipoVinculacion
-- name: persona_idioma
-  description: |
-    PersonaIdiomaController oprations for PersonaIdioma
-- name: vinculacion
-  description: |
-    VinculacionController oprations for Vinculacion
-- name: dato
-  description: |
-    DatoController oprations for Dato
-- name: opcion_dato
-  description: |
-    OpcionDatoController oprations for OpcionDato
-- name: criterio_evaluacion
-  description: |
-    CriterioEvaluacionController oprations for CriterioEvaluacion
-- name: programa
-  description: |
-    ProgramaController oprations for Programa
-- name: dato_produccion
-  description: |
-    DatoProduccionController oprations for DatoProduccion
-- name: cursos
-  description: |
-    CursosController oprations for Cursos
-- name: dato_subtipo
-  description: |
-    DatoSubtipoController oprations for DatoSubtipo
+    EscalafonEquivalenteController oprations for EscalafonEquivalente
 - name: distincion
   description: |
     DistincionController oprations for Distincion
-- name: tipo_contacto
-  description: |
-    TipoContactoController oprations for TipoContacto
-- name: experiencia_laboral
-  description: |
-    ExperienciaLaboralController oprations for ExperienciaLaboral
-- name: tipo_dedicacion
-  description: |
-    TipoDedicacionController oprations for TipoDedicacion
 - name: experiencia_docente
   description: |
     ExperienciaDocenteController oprations for ExperienciaDocente
+- name: estado_administrativo
+  description: |
+    EstadoAdministrativoController oprations for EstadoAdministrativo
+- name: tipo_vinculacion
+  description: |
+    TipoVinculacionController oprations for TipoVinculacion
+- name: produccion_academica
+  description: |
+    ProduccionAcademicaController oprations for ProduccionAcademica
+- name: cursos
+  description: |
+    CursosController oprations for Cursos
+- name: tipo_produccion
+  description: |
+    TipoProduccionController oprations for TipoProduccion
 - name: investigacion
   description: |
     InvestigacionController oprations for Investigacion
+- name: dato_produccion
+  description: |
+    DatoProduccionController oprations for DatoProduccion
+- name: evaluador
+  description: |
+    EvaluadorController oprations for Evaluador
+- name: nivel_escalafon
+  description: |
+    NivelEscalafonController oprations for NivelEscalafon
+- name: tipo_investigacion
+  description: |
+    TipoInvestigacionController oprations for TipoInvestigacion
+- name: modalidad_grado
+  description: |
+    ModalidadGradoController oprations for ModalidadGrado
+- name: nivel_formacion
+  description: |
+    NivelFormacionController oprations for NivelFormacion
+- name: tipo_contacto
+  description: |
+    TipoContactoController oprations for TipoContacto
+- name: tipo_estado_administrativo
+  description: |
+    TipoEstadoAdministrativoController oprations for TipoEstadoAdministrativo
+- name: vinculacion
+  description: |
+    VinculacionController oprations for Vinculacion
+- name: persona_idioma
+  description: |
+    PersonaIdiomaController oprations for PersonaIdioma
+- name: programa
+  description: |
+    ProgramaController oprations for Programa
+- name: tipo_dedicacion
+  description: |
+    TipoDedicacionController oprations for TipoDedicacion
+- name: proceso_disciplinario
+  description: |
+    ProcesoDisciplinarioController oprations for ProcesoDisciplinario
+- name: contacto
+  description: |
+    ContactoController oprations for Contacto
+- name: escalafon
+  description: |
+    EscalafonController oprations for Escalafon
+- name: criterio_evaluacion
+  description: |
+    CriterioEvaluacionController oprations for CriterioEvaluacion
+- name: subtipo_produccion
+  description: |
+    SubtipoProduccionController oprations for SubtipoProduccion
+- name: historico_escalafon
+  description: |
+    HistoricoEscalafonController oprations for HistoricoEscalafon
 - name: formacion_academica
   description: |
     FormacionAcademicaController oprations for FormacionAcademica
+- name: dato_subtipo
+  description: |
+    DatoSubtipoController oprations for DatoSubtipo
+- name: experiencia_laboral
+  description: |
+    ExperienciaLaboralController oprations for ExperienciaLaboral
+- name: idioma
+  description: |
+    IdiomaController oprations for Idioma
+- name: dato
+  description: |
+    DatoController oprations for Dato
+- name: institucion
+  description: |
+    InstitucionController oprations for Institucion
+- name: opcion_dato
+  description: |
+    OpcionDatoController oprations for OpcionDato
+- name: titulo
+  description: |
+    TituloController oprations for Titulo
+- name: nivel_idioma
+  description: |
+    NivelIdiomaController oprations for NivelIdioma

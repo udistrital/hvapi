@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "kyronApi/routers"
+	_ "hojasdevida/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"

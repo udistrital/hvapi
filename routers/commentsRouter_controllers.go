@@ -6,350 +6,350 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["kyronApi/controllers:CursosController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:CursosController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:CursosController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:CursosController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:CursosController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:CursosController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:CursosController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:CursosController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:CursosController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:CursosController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:CursosController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ExperienciaDocenteController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ExperienciaDocenteController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:FormacionAcademicaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:FormacionAcademicaController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InstitucionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InstitucionController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:InvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:InvestigacionController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:NivelFormacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:NivelFormacionController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:ProgramaController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:ProgramaController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoDedicacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoDedicacionController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TipoInvestigacionController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TipoInvestigacionController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"delete"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TituloController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TituloController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TituloController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TituloController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TituloController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TituloController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
 			AllowHTTPMethods: []string{"get"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TituloController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TituloController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
 			AllowHTTPMethods: []string{"put"},
 			Params: nil})
 
-	beego.GlobalControllerRouter["kyronApi/controllers:TituloController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:TituloController"],
+	beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:TituloController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,

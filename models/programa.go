@@ -10,10 +10,10 @@ import (
 )
 
 type Programa struct {
-	Id             int          `orm:"column(id);pk"`
-	NombrePrograma string       `orm:"column(nombre_programa)"`
-	InstitucionId  *Institucion `orm:"column(institucion_id);rel(fk)"`
-	NivelFormacion float64      `orm:"column(nivel_formacion)"`
+	NivelFormacion *NivelFormacion `orm:"column(nivel_formacion);rel(fk)"`
+	InstitucionId  *Institucion    `orm:"column(institucion_id);rel(fk)"`
+	NombrePrograma string          `orm:"column(nombre_programa)"`
+	Id             int             `orm:"column(id);pk"`
 }
 
 func (t *Programa) TableName() string {

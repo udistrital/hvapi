@@ -11,18 +11,18 @@ import (
 )
 
 type FormacionAcademica struct {
-	Id                int          `orm:"column(id);pk"`
-	PersonaId         int          `orm:"column(persona_id)"`
-	InstitucionId     *Institucion `orm:"column(institucion_id);rel(fk)"`
-	ProgramaId        *Programa    `orm:"column(programa_id);rel(fk)"`
-	NombreProyecto    string       `orm:"column(nombre_proyecto);null"`
-	Validacion        bool         `orm:"column(validacion)"`
-	FechaInicio       time.Time    `orm:"column(fecha_inicio);type(date)"`
-	FechaFinalizacion time.Time    `orm:"column(fecha_finalizacion);type(date)"`
-	AreaConocimiento  string       `orm:"column(area_conocimiento);null"`
-	FechaDato         time.Time    `orm:"column(fecha_dato);type(date);null"`
-	Vigente           bool         `orm:"column(vigente);null"`
 	Titulo            *Titulo      `orm:"column(titulo);rel(fk)"`
+	Vigente           bool         `orm:"column(vigente);null"`
+	FechaDato         time.Time    `orm:"column(fecha_dato);type(date);null"`
+	AreaConocimiento  string       `orm:"column(area_conocimiento);null"`
+	FechaFinalizacion time.Time    `orm:"column(fecha_finalizacion);type(date)"`
+	FechaInicio       time.Time    `orm:"column(fecha_inicio);type(date)"`
+	Validacion        bool         `orm:"column(validacion)"`
+	NombreProyecto    string       `orm:"column(nombre_proyecto);null"`
+	ProgramaId        *Programa    `orm:"column(programa_id);rel(fk)"`
+	InstitucionId     *Institucion `orm:"column(institucion_id);rel(fk)"`
+	PersonaId         int          `orm:"column(persona_id)"`
+	Id                int          `orm:"column(id);pk"`
 }
 
 func (t *FormacionAcademica) TableName() string {

@@ -10,9 +10,8 @@ import (
 )
 
 type NivelFormacion struct {
-	Id          int       `orm:"column(id);pk"`
-	NombreNivel string    `orm:"column(nombre_nivel);null"`
-	ProgramaId  *Programa `orm:"column(programa_id);rel(fk)"`
+	NombreNivel string `orm:"column(nombre_nivel);null"`
+	Id          int    `orm:"column(id);pk"`
 }
 
 func (t *NivelFormacion) TableName() string {

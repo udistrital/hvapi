@@ -10,8 +10,8 @@ import (
 )
 
 type TipoDedicacion struct {
-	Id                   int    `orm:"column(id);pk"`
 	NombreTipoDedicacion string `orm:"column(nombre_tipo_dedicacion)"`
+	Id                   int    `orm:"column(id);pk"`
 }
 
 func (t *TipoDedicacion) TableName() string {

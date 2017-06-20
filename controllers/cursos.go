@@ -3,7 +3,7 @@ package controllers
 import (
 	"encoding/json"
 	"errors"
-	"hojasdevida/models"
+	"kyronApi/models"
 	"strconv"
 	"strings"
 

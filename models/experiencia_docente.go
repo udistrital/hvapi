@@ -11,17 +11,17 @@ import (
 )
 
 type ExperienciaDocente struct {
-	Id                int             `orm:"column(id);pk"`
-	InstitucionId     *Institucion    `orm:"column(institucion_id);rel(fk)"`
-	TipoActividad     string          `orm:"column(tipo_actividad)"`
-	CampoEnseñanza    string          `orm:"column(campo_enseñanza);null"`
-	PersonaId         int             `orm:"column(persona_id)"`
-	Validacion        bool            `orm:"column(validacion)"`
-	FechaInicio       time.Time       `orm:"column(fecha_inicio);type(date)"`
-	FechaFinalizacion time.Time       `orm:"column(fecha_finalizacion);type(date)"`
-	TipoDedicacionId  *TipoDedicacion `orm:"column(tipo_dedicacion_id);rel(fk)"`
+	Vigente           bool            `orm:"column(vigente);null"`
 	FechaDato         time.Time       `orm:"column(fecha_dato);type(date);null"`
-	Vigencia          bool            `orm:"column(vigencia);null"`
+	TipoDedicacionId  *TipoDedicacion `orm:"column(tipo_dedicacion_id);rel(fk)"`
+	FechaFinalizacion time.Time       `orm:"column(fecha_finalizacion);type(date)"`
+	FechaInicio       time.Time       `orm:"column(fecha_inicio);type(date)"`
+	Validacion        bool            `orm:"column(validacion)"`
+	PersonaId         int             `orm:"column(persona_id)"`
+	CampoEnseñanza    string          `orm:"column(campo_enseñanza);null"`
+	TipoActividad     string          `orm:"column(tipo_actividad)"`
+	InstitucionId     *Institucion    `orm:"column(institucion_id);rel(fk)"`
+	Id                int             `orm:"column(id);pk"`
 }
 
 func (t *ExperienciaDocente) TableName() string {

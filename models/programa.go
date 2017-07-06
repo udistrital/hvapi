@@ -48,7 +48,7 @@ func GetProgramaById(id int) (v *Programa, err error) {
 func GetAllPrograma(query map[string]string, fields []string, sortby []string, order []string,
 	offset int64, limit int64) (ml []interface{}, err error) {
 	o := orm.NewOrm()
-	qs := o.QueryTable(new(Programa))
+	qs := o.QueryTable(new(Programa)).RelatedSel()
 	// query k=v
 	for k, v := range query {
 		// rewrite dot-notation to Object__Attribute

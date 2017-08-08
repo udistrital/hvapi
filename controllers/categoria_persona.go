@@ -3,20 +3,20 @@ package controllers
 import (
 	"encoding/json"
 	"errors"
-	"kyronApi/models"
+	"hojasdevidaw/models"
 	"strconv"
 	"strings"
 
 	"github.com/astaxie/beego"
 )
 
-// CursosController oprations for Cursos
-type CursosController struct {
+// CategoriaPersonaController oprations for CategoriaPersona
+type CategoriaPersonaController struct {
 	beego.Controller
 }
 
 // URLMapping ...
-func (c *CursosController) URLMapping() {
+func (c *CategoriaPersonaController) URLMapping() {
 	c.Mapping("Post", c.Post)
 	c.Mapping("GetOne", c.GetOne)
 	c.Mapping("GetAll", c.GetAll)
@@ -26,15 +26,15 @@ func (c *CursosController) URLMapping() {
 
 // Post ...
 // @Title Post
-// @Description create Cursos
-// @Param	body		body 	models.Cursos	true		"body for Cursos content"
-// @Success 201 {int} models.Cursos
+// @Description create CategoriaPersona
+// @Param	body		body 	models.CategoriaPersona	true		"body for CategoriaPersona content"
+// @Success 201 {int} models.CategoriaPersona
 // @Failure 403 body is empty
 // @router / [post]
-func (c *CursosController) Post() {
-	var v models.Cursos
+func (c *CategoriaPersonaController) Post() {
+	var v models.CategoriaPersona
 	if err := json.Unmarshal(c.Ctx.Input.RequestBody, &v); err == nil {
-		if _, err := models.AddCursos(&v); err == nil {
+		if _, err := models.AddCategoriaPersona(&v); err == nil {
 			c.Ctx.Output.SetStatus(201)
 			c.Data["json"] = v
 		} else {
@@ -48,15 +48,15 @@ func (c *CursosController) Post() {
 
 // GetOne ...
 // @Title Get One
-// @Description get Cursos by id
+// @Description get CategoriaPersona by id
 // @Param	id		path 	string	true		"The key for staticblock"
-// @Success 200 {object} models.Cursos
+// @Success 200 {object} models.CategoriaPersona
 // @Failure 403 :id is empty
 // @router /:id [get]
-func (c *CursosController) GetOne() {
+func (c *CategoriaPersonaController) GetOne() {
 	idStr := c.Ctx.Input.Param(":id")
 	id, _ := strconv.Atoi(idStr)
-	v, err := models.GetCursosById(id)
+	v, err := models.GetCategoriaPersonaById(id)
 	if err != nil {
 		c.Data["json"] = err.Error()
 	} else {
@@ -67,17 +67,17 @@ func (c *CursosController) GetOne() {
 
 // GetAll ...
 // @Title Get All
-// @Description get Cursos
+// @Description get CategoriaPersona
 // @Param	query	query	string	false	"Filter. e.g. col1:v1,col2:v2 ..."
 // @Param	fields	query	string	false	"Fields returned. e.g. col1,col2 ..."
 // @Param	sortby	query	string	false	"Sorted-by fields. e.g. col1,col2 ..."
 // @Param	order	query	string	false	"Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ..."
 // @Param	limit	query	string	false	"Limit the size of result set. Must be an integer"
 // @Param	offset	query	string	false	"Start position of result set. Must be an integer"
-// @Success 200 {object} models.Cursos
+// @Success 200 {object} models.CategoriaPersona
 // @Failure 403
 // @router / [get]
-func (c *CursosController) GetAll() {
+func (c *CategoriaPersonaController) GetAll() {
 	var fields []string
 	var sortby []string
 	var order []string
@@ -119,7 +119,7 @@ func (c *CursosController) GetAll() {
 		}
 	}
 
-	l, err := models.GetAllCursos(query, fields, sortby, order, offset, limit)
+	l, err := models.GetAllCategoriaPersona(query, fields, sortby, order, offset, limit)
 	if err != nil {
 		c.Data["json"] = err.Error()
 	} else {
@@ -130,18 +130,18 @@ func (c *CursosController) GetAll() {
 
 // Put ...
 // @Title Put
-// @Description update the Cursos
+// @Description update the CategoriaPersona
 // @Param	id		path 	string	true		"The id you want to update"
-// @Param	body		body 	models.Cursos	true		"body for Cursos content"
-// @Success 200 {object} models.Cursos
+// @Param	body		body 	models.CategoriaPersona	true		"body for CategoriaPersona content"
+// @Success 200 {object} models.CategoriaPersona
 // @Failure 403 :id is not int
 // @router /:id [put]
-func (c *CursosController) Put() {
+func (c *CategoriaPersonaController) Put() {
 	idStr := c.Ctx.Input.Param(":id")
 	id, _ := strconv.Atoi(idStr)
-	v := models.Cursos{Id: id}
+	v := models.CategoriaPersona{Id: id}
 	if err := json.Unmarshal(c.Ctx.Input.RequestBody, &v); err == nil {
-		if err := models.UpdateCursosById(&v); err == nil {
+		if err := models.UpdateCategoriaPersonaById(&v); err == nil {
 			c.Data["json"] = "OK"
 		} else {
 			c.Data["json"] = err.Error()
@@ -154,15 +154,15 @@ func (c *CursosController) Put() {
 
 // Delete ...
 // @Title Delete
-// @Description delete the Cursos
+// @Description delete the CategoriaPersona
 // @Param	id		path 	string	true		"The id you want to delete"
 // @Success 200 {string} delete success!
 // @Failure 403 id is empty
 // @router /:id [delete]
-func (c *CursosController) Delete() {
+func (c *CategoriaPersonaController) Delete() {
 	idStr := c.Ctx.Input.Param(":id")
 	id, _ := strconv.Atoi(idStr)
-	if err := models.DeleteCursos(id); err == nil {
+	if err := models.DeleteCategoriaPersona(id); err == nil {
 		c.Data["json"] = "OK"
 	} else {
 		c.Data["json"] = err.Error()

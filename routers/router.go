@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"hojasdevida/controllers"
+	"kyronApi/controllers"
 
 	"github.com/astaxie/beego"
 )
@@ -73,6 +73,24 @@ func init() {
 		beego.NSNamespace("/nivel_formacion",
 			beego.NSInclude(
 				&controllers.NivelFormacionController{},
+			),
+		),
+
+		beego.NSNamespace("/categoria_persona",
+			beego.NSInclude(
+				&controllers.CategoriaPersonaController{},
+			),
+		),
+
+		beego.NSNamespace("/tipo_categoria",
+			beego.NSInclude(
+				&controllers.TipoCategoriaController{},
+			),
+		),
+
+		beego.NSNamespace("/persona_escalafon",
+			beego.NSInclude(
+				&controllers.PersonaEscalafonController{},
 			),
 		),
 	)

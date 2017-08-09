@@ -6,14 +6,14 @@ import (
 
 func init() {
 
-		beego.GlobalControllerRouter["kyronApi/controllers:PersonaEscalafonController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:PersonaEscalafonController"],
+		beego.GlobalControllerRouter["hojasdevida/controllers:PersonaEscalafonController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:PersonaEscalafonController"],
 			beego.ControllerComments{
 				Method: "GetAllPregrado",
 				Router: `pregrado`,
 				AllowHTTPMethods: []string{"get"},
 				Params: nil})
 
-		beego.GlobalControllerRouter["kyronApi/controllers:PersonaEscalafonController"] = append(beego.GlobalControllerRouter["kyronApi/controllers:PersonaEscalafonController"],
+		beego.GlobalControllerRouter["hojasdevida/controllers:PersonaEscalafonController"] = append(beego.GlobalControllerRouter["hojasdevida/controllers:PersonaEscalafonController"],
 			beego.ControllerComments{
 				Method: "GetAllPosgrado",
 				Router: `posgrado`,

@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"kyronApi/controllers"
+	"hojasdevida/controllers"
 
 	"github.com/astaxie/beego"
 )

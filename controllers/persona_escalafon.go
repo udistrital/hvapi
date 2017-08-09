@@ -1,7 +1,7 @@
 package controllers
 
 import (
-  "kyronApi/models"
+  "hojasdevida/models"
   "github.com/astaxie/beego"
 )
 

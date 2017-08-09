@@ -3,7 +3,7 @@ package controllers
 import (
 	"encoding/json"
 	"errors"
-	"hojasdevidaw/models"
+	"hojasdevida/models"
 	"strconv"
 	"strings"
 

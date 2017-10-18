@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"hojasdevida/controllers"
+	"github.com/udistrital/hvapi/controllers"
 
 	"github.com/astaxie/beego"
 )

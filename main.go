@@ -1,8 +1,6 @@
 package main
 
 import (
-	_ "hojasdevida/routers"
-
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/lib/pq"

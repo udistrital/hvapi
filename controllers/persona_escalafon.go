@@ -1,7 +1,7 @@
 package controllers
 
 import (
-  "hojasdevida/models"
+    "github.com/udistrital/hvapi/models"
   "github.com/astaxie/beego"
 )
 

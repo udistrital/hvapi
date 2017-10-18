@@ -21,7 +21,7 @@ func init() {
 func GetAllPersonaEscalafonPregrado() (arregloIDs []PersonaEscalafon) {
 	o := orm.NewOrm()
 	var temp []PersonaEscalafon
-	_, err := o.Raw("SELECT p.num_documento_persona id, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, nombre_categoria escalafon FROM agora.informacion_persona_natural p, kyron.categoria_persona ep, kyron.tipo_categoria e, agora.informacion_proveedor ip WHERE p.num_documento_persona=ep.persona_id AND ep.id_tipo_categoria=e.id AND ip.num_documento=p.num_documento_persona;").QueryRows(&temp)
+	_, err := o.Raw("SELECT p.num_documento_persona id, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, nombre_categoria escalafon FROM agora.informacion_persona_natural p, administrativa.categoria_persona ep, administrativa.tipo_categoria e, agora.informacion_proveedor ip WHERE p.num_documento_persona=ep.persona_id AND ep.id_tipo_categoria=e.id AND ip.num_documento=p.num_documento_persona;").QueryRows(&temp)
 	if err == nil {
 		fmt.Println("Consulta exitosa")
 	}
@@ -32,7 +32,7 @@ func GetAllPersonaEscalafonPregrado() (arregloIDs []PersonaEscalafon) {
 func GetAllPersonaEscalafonPosgrado() (arregloIDs []PersonaEscalafon) {
 	o := orm.NewOrm()
 	var temp []PersonaEscalafon
-	_, err := o.Raw("SELECT p.num_documento_persona id, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, nombre_categoria escalafon FROM agora.informacion_persona_natural p, kyron.categoria_persona ep, kyron.tipo_categoria e WHERE p.num_documento_persona=ep.persona_id AND ep.id_tipo_categoria=e.id AND e.nombre_categoria not like 'Auxiliar';").QueryRows(&temp)
+	_, err := o.Raw("SELECT p.num_documento_persona id, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, nombre_categoria escalafon FROM agora.informacion_persona_natural p, administrativa.categoria_persona ep, administrativa.tipo_categoria e WHERE p.num_documento_persona=ep.persona_id AND ep.id_tipo_categoria=e.id AND e.nombre_categoria not like 'Auxiliar';").QueryRows(&temp)
 	if err == nil {
 		fmt.Println("Consulta exitosa")
 	}
